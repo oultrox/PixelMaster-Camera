@@ -2,7 +2,7 @@
 ## Instructions
 Simply drag the camera prefab into your scene or add the PixelCamera component to your main camera, all image effects are supported but may be processed at native resolution before downscaling.
 
-- Set `Reference Width` and `Reference Height` your target resolution for following it's aspect ratio (example: 320x180 is 16:9 so game will display in 16:9 aspect ratio). After this, you'll be able to just set `Native Resolution` to your game via `Player Settings` and it'll follow the true aspect ratio of stated reference resolution in letterbox mode (if it doesn't fit, it'll add bars or whatever you would like to show as background).
+- Set `Reference Width` and `Reference Height` your target resolution and it'll keep the aspect ratio (example: 320x180 is 16:9 so game will display in 16:9 aspect ratio). After this, you'll be able to just set `Native Resolution` to your game via `Player Settings` and it'll follow the true aspect ratio of stated reference resolution in letterbox mode (if it doesn't fit, it'll add bars or whatever you would like to show as background).
 - Toggle `Run Every Tick` if you want this executing in-game and you would like to resize viewpor or window size automatically.
 
 ![Camera Component](https://i.imgur.com/3eyuav4.png)
